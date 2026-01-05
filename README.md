@@ -11,17 +11,29 @@ A modular, object-oriented search engine built in Python to demonstrate core sof
 
 ## Project Structure
 Document Retrieval System/
+
 ├── main.py # Entry point (interactive CLI)
+
 ├── core/ # Document representation & vectors
+
 │ ├── document.py
+
 │ ├── document_factory.py
+
 │ └── vector.py
+
 ├── engine/ # Search logic & indexing
+
 │ ├── indexer.py
+
 │ ├── query_processor.py
+
 │ └── search_engine.py
+
 ├── tests/ # Unit tests
+
 │ └── test_document.py
+
 └── README.md # You are here!
 
 
