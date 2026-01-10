@@ -15,7 +15,9 @@ def main():
         ("text", 1, "The quick brown fox jumps over the lazy dog"),
         ("text", 2, "A fast brown fox leaps over a sleepy dog"),
         ("text", 3, "Machine learning is amazing for search engines"),
-        ("pdf", 4, "I2-Unit 3.pdf")
+        ("pdf", 4, "documents/I2-Unit 3.pdf"),
+        ("pdf", 5, "documents/daily_music_listening_time_report.pdf"),
+        ("pdf", 6, "documents/statistics_contents.pdf"),
     ]
 
     # add documents AND assign TF vectors
